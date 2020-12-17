@@ -1,0 +1,40 @@
+body {
+  background-color: #404d3c;
+}
+
+p {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+  font-size: 20px;
+}
+
+canvas {
+  margin-top: 5px;
+  outline: yellow 3px solid;
+}
+
+#score, #controls {
+  margin: auto;
+  width: 15%;
+  border: 3px solid yellow;
+  padding: 2px;
+}
+
+#controls {
+  margin-top: 450px;
+}
+
+#score, p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
