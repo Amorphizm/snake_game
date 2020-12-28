@@ -151,7 +151,7 @@ var food = new Food(400/2, 400/2);
 
 function setup() {
   var canvas = createCanvas(400, 400);
-  canvas.position(600, 100);
+  canvas.parent('canvasContainer');
 }
 
 function update() {

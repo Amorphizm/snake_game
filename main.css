@@ -17,8 +17,13 @@ button {
 }
 
 canvas {
-  margin-top: 5px;
+  margin: 25px 0px;
   outline: yellow 3px solid;
+  display: inline;
+}
+
+#canvasContainer {
+  text-align: center;
 }
 
 #score, #controls {
@@ -26,10 +31,6 @@ canvas {
   width: 15%;
   border: 3px solid yellow;
   padding: 2px;
-}
-
-#controls {
-  margin-top: 450px;
 }
 
 #score, p {
